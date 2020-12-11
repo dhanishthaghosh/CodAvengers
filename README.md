@@ -18,6 +18,15 @@ People often have to visit and search through various many websites when they ar
 - Captivating web pages to enhance tourism
 - Complete working website with information for tourists.
 
+### Tech Stack:
+
+- HTML5
+- CSS3
+- Bootstrap
+- Javascript
+- Flask
+- MySQL
+
 ### Sneak-peak into our website in-making:
 
 ![Home page](Home-Page.jpeg "Home Page")
