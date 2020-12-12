@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask (__name__,
             instance_relative_config=False,
             template_folder="./",
-            static_folder="./")
+            static_folder="")
 #app.config['SECRET_KEY'] = '91d54e9262c3491e8a22b74c2d0e2bca'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///tourismdb.db'
 db = SQLAlchemy(app)
