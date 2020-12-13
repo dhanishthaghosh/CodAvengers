@@ -4,7 +4,7 @@ from web.models import Hotel
 
 
 @app.route('/')
-@app.route('/index')
+@app.route('/home')
 def home():
     return render_template('index.html', title='Index Page')
 
